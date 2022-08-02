@@ -1,4 +1,4 @@
-@RestResource(urlMapping='/api/Webhooks/pushDetailsdemo/*')
+@RestResource(urlMapping='https://my-maverickae--maverickn.sandbox.my.salesforce.com/services/apexrest/api/Webhooks/pushDetailsdemo/*')
 global with sharing class webhookSubscriptionDemo {
 @HttpPost global static void handleNotification() {
     try{
